@@ -1,0 +1,29 @@
+body {
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#birthdayInput {
+    border: solid 2px #04aa6d;
+    padding: 15px 32px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#calculateButton {
+    background-color: #04aa6d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin-top: 22px;
+}
+#result {
+    font-size: 16px;
+}
+#redMessage {
+    color: red;
+}
